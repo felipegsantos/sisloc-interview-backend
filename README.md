@@ -1,4 +1,4 @@
-## Installation
+## Preparing environment
 
 Up the containers docker (PostgreSQL and Redis)
 ```bash
@@ -8,9 +8,7 @@ docker run -p 6379:6379 --name redis -d redis redis-server --save 60 1 --logleve
 
 PS.: Run the postgres image in root of project for creation volume pgdata of them
 
-
-
-
+## Installation
 
 ```bash
 $ yarn
